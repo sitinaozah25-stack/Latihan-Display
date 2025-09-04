@@ -1,0 +1,107 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container utama */
+.container {
+  font-family: 'calibri', sans-serif;
+  color: #333;
+}
+
+/* Header */
+.header {
+  background-color: #195764; /* biru */
+  color: rgb(98, 195, 217);
+  padding: 20px 40px;
+  text-align: left; /* teks ke kiri */
+}
+
+.header .judul {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Navigasi */
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start; /* posisikan ke kiri */
+}
+
+.header ul li {
+  margin-right: 20px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.header ul li a:hover {
+  color: #ffd700; /* emas saat hover */
+}
+
+/* Hero section */
+.hero {
+  height: 300px;
+  background: url("gunung.jpg") no-repeat center center/cover;
+}
+
+/* Content */
+.content {
+  padding: 20px 40px;
+}
+
+.content h2 {
+  margin-bottom: 10px;
+  color: #1E90FF; /* biru */
+}
+
+.content .Saya {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.content .Saya a {
+  text-decoration: none;
+  color: #1E90FF;
+}
+
+.content .Saya a:hover {
+  text-decoration: underline;
+}
+
+.content p {
+  line-height: 1.6;
+}
+
+.one {
+    width: 200px;
+    height:200px;
+    background-color: #195764;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.two {
+    width: 200px;
+    height:200px;
+    background-color: #1E90FF;
+}
+three {
+    width: 50px;
+    height:50px;
+    background-color: #FFD700;
+}
+div{
+width: px;
+height: px;
+background-color: #96cfda;
+overflow: auto;    
+}
+

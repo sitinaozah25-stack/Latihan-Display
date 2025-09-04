@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout Sederhana</title>
+  <style>
+    /* Atur default */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Container utama */
+    .container {
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    /* Bagian header */
+    .header {
+      background-color: lightblue;
+      height: 150px;
+      margin-bottom: 20px;
+    }
+
+    /* Bagian konten */
+    .content {
+      display: flex;
+      gap: 0px; /* jarak antar kolom */
+    }
+
+    /* Kolom kiri */
+    .kiri {
+      background-color: lightblue;
+      flex: 3;   /* lebar sekitar 70% */
+      height: 400px;
+      
+    }
+
+    .tengah {
+      background-color: rgb(119, 153, 169);
+      flex: 4;   /* lebar sekitar 20% */
+      height: 400px;
+      
+    }
+
+    /* Kolom kanan */
+    .kanan {
+      background-color: lightyellow;
+      flex: 3;   /* lebar sekitar 30% */
+      height: 400px;
+      
+    }
+
+    /* Footer opsional */
+    .footer {
+      background-color: black;
+      height: 50px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header"></div>
+    
+    <div class="content">
+      <div class="kiri"></div>
+      <div class="kanan"></div>
+    </div>
+
+    <div class="footer"></div>
+  </div>
+</body>
+</html>
